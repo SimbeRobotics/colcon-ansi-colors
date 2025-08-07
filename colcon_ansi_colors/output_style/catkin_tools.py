@@ -75,7 +75,7 @@ class CatkinToolsOutputStyle(OutputStyleExtensionPoint):
         style.PackageOrJobName = AnsiEscape.Cyan
         style.Pictogram = AnsiEscape.Bright + AnsiEscape.Green
         style.SectionStart = AnsiEscape.Default
-        style.SectionEnd = AnsiEscape.Bright + AnsiEscape.Black
+        style.SectionEnd = AnsiEscape.Faint + AnsiEscape.Default
         style.Strong = AnsiEscape.Bright
         style.Success = AnsiEscape.Green
         style.Warning = AnsiEscape.Yellow
