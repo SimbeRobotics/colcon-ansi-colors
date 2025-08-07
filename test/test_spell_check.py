@@ -21,7 +21,7 @@ def test_spell_check(known_words):
 
     source_filenames = [Path(__file__).parents[1] / 'setup.py'] + \
         list(
-            (Path(__file__).parents[1] / 'colcon_ansi_colors_example')
+            (Path(__file__).parents[1] / 'colcon_ansi_colors')
             .glob('**/*.py')) + \
         list((Path(__file__).parents[1] / 'test').glob('**/*.py'))
 
